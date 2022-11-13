@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Disponibilité</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <div>
+        <header>
+            <div>
+                <div>
+                    <img src="images/logo.png" alt="Logo de Zozor" id=logo />
+
+                </div>
+                <h2>Carnets de voyage</h2>
+            </div>
+
+            <nav>
+                <ul>
+                    <li><a href="Accueil.html">Accueil</a></li>
+                    <li><a href="Plage.html">Plage</a></li>
+                    <li><a href="sahara.html">Sahara</a></li>
+                    <li><a href="#">Culture</a></li>
+                    <li><a href="#">Artisanat</a></li>
+                </ul>
+            </nav>
+        </header>
+        <br>
+        <br>
+        <section>
+            <aside>
+                <h1>Rechercher </h1>
+                <form name="form1" method="post" action="">
+                    Destination / Nom de l'établissement :
+                    <select name="hotel" id="hotel">
+                        <option value="h1">El Mouradi Douz</option>
+                        <option value="h2">Camp Mars</option>
+                        <option value="h3">Grand Sud, la maison de sable</option>
+                        <option value="h4">TENTE ELBEY</option>
+                        <option value="h5">El Mouradi Djerba Menzel</option>
+                        <option value="h6">TUI MAGIC LIFE Penelope Beach </option>
+                        <option value="h7">Djerba Plaza Thalasso & Spa</option>
+                    </select>
+
+                    <br>
+                    <br>
+                    Du: <input type="date" name="du" id="du" size="80">
+                    <br>
+                    <br>
+                    Au: <input type="date" name="au" id="au" size="80">
+                    <br>
+                    <br>
+                    Nombre de personnes : <br>
+                    <ul>
+                        <li> Adultes &nbsp;&nbsp;&nbsp; <input type="number" name="adulte" value="adulte" id="adulte"
+                                placeholder="0">
+                        </li><br>
+                        <li> Enfants &nbsp;&nbsp;&nbsp; <input type="number" name="enfant" value="enfant" id="enfant"
+                                placeholder="0"> </li><br>
+                        <li> Chambres <input type="number" name="chambre" value="chambre" id="chambre" placeholder="0">
+                        </li>
+                    </ul>
+                    <br>
+                    <br>
+                    <center>
+                        <input type="submit" name="envoyer" value="Rechercher">
+                    </center>
+
+
+                </form>
+            </aside>
+        </section>
+</body>
+
+</html>
